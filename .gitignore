@@ -1,10 +1,36 @@
-# Temporary files
-temp/
-tmp/
+# Node.js dependencies
+node_modules/
 
 # Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# Debug and log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Build output
+dist/
+build/
+coverage/
 
 # Operating system files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local files
+*.local
